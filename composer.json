@@ -1,0 +1,23 @@
+{
+    "name": "eggpan/phpxlsxwriter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Eggpan"
+        }
+    ],    
+    "autoload": {
+        "psr-4": {
+            "Eggpan\\PHPXlsxWriter\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "ext-mbstring": "*",
+        "ext-xml": "*",
+        "ext-xmlreader": "*",
+        "ext-xmlwriter": "*",
+        "ext-zip": "*"
+    }
+}
