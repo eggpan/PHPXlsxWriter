@@ -64,7 +64,7 @@ class Spreadsheet
             if ($index === count($this->sheets)) {
                 $this->sheets[$index] = $worksheet;
             } else {
-                array_splice($this->sheets, $index, 0, $worksheet);
+                array_splice($this->sheets, $index, 0, [$worksheet]);
             }
         } else {
             $index = count($this->sheets);
