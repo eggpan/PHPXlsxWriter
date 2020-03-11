@@ -301,6 +301,16 @@ class Worksheet
     // ----------------------------------------------------------------
 
     /**
+     * シートデータを取得する
+     *
+     * @return array
+     */
+    public function getSheetData(): array
+    {
+        return $this->data;
+    }
+
+    /**
      * xlsxファイルに書き込むxml文字列を返す
      *
      * @return string
